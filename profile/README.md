@@ -6,10 +6,11 @@ On the other hand, the PlayMaker Server receives information from the client and
 To learn more about the framework, how to build, and how to run it please check the [wiki pages](https://github.com/CLSFramework/cross-language-soccer-framework/wiki).
 
 Also, you can check the following repositories:
-- [Soccer Simulation Proxy](https://github.com/CLSFramework/soccer-simulation-proxy)
+- [Sample Playmaker Server - Python - gRPC](https://github.com/CLSFramework/sample-playmaker-server-python-grpc)
+- [Sample Playmaker Server - Python - Thrift](https://github.com/CLSFramework/sample-playmaker-server-python-thrift)
 - [PlaymakerServer-CSharp](https://github.com/CLSFramework/playmaker-server-csharp)
-- [PlaymakerServer-Python](https://github.com/CLSFramework/playmaker-server-python)
 - [PlaymakerServer-NodeJs](https://github.com/CLSFramework/playmaker-server-nodejs)
+- [Soccer Simulation Proxy](https://github.com/CLSFramework/soccer-simulation-proxy)
 
 ![image](https://github.com/Cross-Language-Soccer-Framework/cross-language-soccer-framework/assets/25696836/d152797b-53f0-490f-a8dd-b8c0ef667317)
 
