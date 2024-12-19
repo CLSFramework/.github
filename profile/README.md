@@ -1,22 +1,41 @@
 # Cross Language Soccer Framework
 
-Cross Language Soccer Framework (CLSFramework) is a new approach to enhance the flexibility and interoperability of RoboCup Soccer Simulation 2D (SS2D). The Soccer Simulation Proxy is an extended version of the Helios base that can send decision-making information to the PlayMaker Server. It can receive high-level actions from the PlayMaker Server and send them to the RoboCup Soccer Simulation Server and/or SoccerWindow2.
-On the other hand, the PlayMaker Server receives information from the client and selects the appropriate actions to be sent back to the client. We have implemented some sample servers in C\#, Python, and JavaScript, but it can also be implemented in other languages to make use of their features.
+Cross Language Soccer Framework is a project that aims to make RoboCup Soccer Simulation 2D more accessible to new teams by providing a framework that allows teams to write their code in any programming language they want.
 
-To learn more about the framework, how to build, and how to run it please check the [wiki pages](https://clsframework.github.io/).
+If you want to know more about how this project works, you can read the project documentation wiki [[HERE](https://clsframework.github.io/docs/introduction/)].
 
-Also, you can check the following repositories:
-- [Py2D Base Code - Python - gRPC](https://github.com/CLSFramework/py2d)
-- [Sample Playmaker Server - Python - gRPC](https://github.com/CLSFramework/sample-playmaker-server-python-grpc)
-- [Sample Playmaker Server - Python - Thrift](https://github.com/CLSFramework/sample-playmaker-server-python-thrift)
-- [PlaymakerServer-CSharp](https://github.com/CLSFramework/playmaker-server-csharp)
-- [PlaymakerServer-NodeJs](https://github.com/CLSFramework/playmaker-server-nodejs)
-- [Soccer Simulation Proxy](https://github.com/CLSFramework/soccer-simulation-proxy)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hH-5rkhiQHg/0.jpg)](https://www.youtube.com/watch?v=hH-5rkhiQHg&t=0s)
 
-![image](https://github.com/Cross-Language-Soccer-Framework/cross-language-soccer-framework/assets/25696836/d152797b-53f0-490f-a8dd-b8c0ef667317)
+## Project Parts
+The project is divided into the following parts:
 
-![image](https://github.com/Cross-Language-Soccer-Framework/cross-language-soccer-framework/assets/25696836/7b0b1d49-7001-479c-889f-46a96a8802c4)
+* **Project Documentation** - [`wiki`](https://clsframework.github.io/docs/introduction/)
 
-![image](https://github.com/Cross-Language-Soccer-Framework/cross-language-soccer-framework/assets/25696836/8ae17787-8bf8-4796-92f2-e20066e3175f)
+    The project documentation.
+* **Py2D Base Code** - [`py2d-base-code`](https://github.com/CLSFramework/py2d)
 
-![image](https://github.com/Cross-Language-Soccer-Framework/cross-language-soccer-framework/assets/25696836/a0bcb859-07d7-4555-93da-86410d53e6a9)
+  Py2D base code is a powerful sample team for soccer simulation 2D league.
+
+* **Soccer Simulation Proxy** - [`soccer-simulation-proxy`](https://github.com/CLSFramework/soccer-simulation-proxy)
+
+    The project's main part, a proxy that allows teams to write their code in any programming language and then communicate with the soccer server using the proxy. This project is based on [[helios-base](https://github.com/helios-base/helios-base)].
+
+* **Playmaker Server Python** - [`playmaker-server-python`](https://github.com/CLSFramework/playmaker-server-python)
+
+    A Python agent that can be used to control the team players.
+
+* **Sample Playmaker Server Python gRPC** - [`sample-playmaker-server-python-grpc`](https://github.com/CLSFramework/sample-playmaker-server-python-grpc)
+
+    A sample Python agent that uses the gRPC protocol to communicate with the proxy.
+
+* **Sample Playmaker Server Python Thrift** - [`sample-playmaker-server-python-thrift`](https://github.com/CLSFramework/sample-playmaker-server-python-thrift)
+
+    A sample Python agent that uses the Thrift protocol to communicate with the proxy.
+
+* **Playmaker Server Node.js** - [`playmaker-server-nodejs`](https://github.com/CLSFramework/playmaker-server-nodejs)
+
+    A Node.js agent that can be used to control the team players.
+
+* **Playmaker Server C#** - [`playmaker-server-csharp`](https://github.com/CLSFramework/playmaker-server-csharp)
+
+    A C# agent that can be used to control the team players.
