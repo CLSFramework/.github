@@ -3,9 +3,10 @@
 Cross Language Soccer Framework (CLSFramework) is a new approach to enhance the flexibility and interoperability of RoboCup Soccer Simulation 2D (SS2D). The Soccer Simulation Proxy is an extended version of the Helios base that can send decision-making information to the PlayMaker Server. It can receive high-level actions from the PlayMaker Server and send them to the RoboCup Soccer Simulation Server and/or SoccerWindow2.
 On the other hand, the PlayMaker Server receives information from the client and selects the appropriate actions to be sent back to the client. We have implemented some sample servers in C\#, Python, and JavaScript, but it can also be implemented in other languages to make use of their features.
 
-To learn more about the framework, how to build, and how to run it please check the [wiki pages](https://github.com/CLSFramework/cross-language-soccer-framework/wiki).
+To learn more about the framework, how to build, and how to run it please check the [wiki pages](https://clsframework.github.io/).
 
 Also, you can check the following repositories:
+- [Py2D Base Code - Python - gRPC](https://github.com/CLSFramework/py2d)
 - [Sample Playmaker Server - Python - gRPC](https://github.com/CLSFramework/sample-playmaker-server-python-grpc)
 - [Sample Playmaker Server - Python - Thrift](https://github.com/CLSFramework/sample-playmaker-server-python-thrift)
 - [PlaymakerServer-CSharp](https://github.com/CLSFramework/playmaker-server-csharp)
